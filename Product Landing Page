@@ -1,0 +1,43 @@
+<html>
+  <link href ="github.com/googlefonts/zen-loop" rel=”sylesheet” type=”text/css”>
+  <Head id="tip-top"><div><h1><u>GRAV PRODUCT LANDING PAGE</u></h1></div></Head>
+<header id="header">
+  <h2>Welcome to a landing page for Grav and all their great products</h2><div id="img-section">Grav Empress in her glorious glory<img id="header-img" src="https://pbs.twimg.com/profile_images/1300817290636726274/o7zcvI1k_400x400.jpg" alt="Grav Logo"></div>
+<section id="section"><nav id="nav-bar" classs="nav-link">
+  <ul id="nav-links"><li id="foot-anchor"><a class="nav-link" href="#footer">Footer</a></li><li id="head-anchor"><a class="nav-link" href="#header">Header</a></li><li id="main-anchor"><a href="#main" class="nav-link">Main</a>
+    </nav></section>
+</header>
+<main id="main"><div id="video-section"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/4UyTKMYlqas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> 
+<form action="https://www.freecodecamp.com/email-submit" id="form"><input id="email" type="email" placeholder="input your email here" name="email"><input type="submit" id="submit"></form>
+<div>
+<p id="par">Grav is a glasswear ccompany that specializes in smoking aparatuses. Their products range from bubblers to water pipes and so much more. They have truly pushed inovation when it comes to to their glass wear designs that allow for a clean and smooth smoking experience.</p>
+</main>
+<foot id="footer">Copyright 2021
+</foot>
+  </html>
+ <style>
+    :root{background-color:pink; position:relative; top: 1px;}
+#header-img{position:relative;
+left: 173px; top: -40px;margin: 70px -400px 20px; width:300px; border-color:white; border-style:solid; border-width:5px;}
+h1{color:white; position:relative; top:5vh;}
+h2{color:white; margin:40px 30px; position:relative; right:2vw;}
+#par{margin: 0px 100px 20px 0px;
+max-width:500px; color:white; font-family:Zen_Loop, arial;}
+#section{position: fixed;
+top: 0;
+  left:1500px;}
+@media(max-width:100px){#par{font-size:20px;}}
+#head-anchor{margin: 0px 20px 0px 20px}
+a{color:white; font-size:30px;}
+#nav-links{display:flex; color:pink; flex-direction:flex-start; z-index:2; position:relative; right:700px; width:100%; height:100%; list-style-type:none; align-items:center; margin: 20px 100px 18px 100px;}
+#section{ width:100vw; z-index:3; margin:0px; width:100%;}
+#video{position:relative; right:10px; border-color:white; border-style:solid; border-width:5px;}
+#img-section{color:white; padding: 0px 0px 0px 0px; margin:0px 0px 0px 0px; text-align:justify; position:relative; right:7px; bottom:70px;}
+#submit{color:pink; background:white;}
+#par{position:relative; top:40px; right:6px; margin: 0px 0px 10px 0px; border-color:white; border-style:solid; border-width:3px;}
+#footer{position:absolute; top:1000px; opacity:0.5;}
+#main{position:relative; bottom:70px;}
+#foot-anchor{margin:0px 100px 0px 100px;}
+#head-anchor{margin:0px 100px 0px 100px;}
+#main-anchor{margin:0px 100px 0px 100px;}
+ </style>
